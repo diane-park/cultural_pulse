@@ -1,0 +1,1 @@
+# scoring algorithm for cultural pulse
