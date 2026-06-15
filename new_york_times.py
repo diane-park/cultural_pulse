@@ -62,7 +62,7 @@ def fetch_nyt_historical(target_date: str, limit: int = 25) -> pd.DataFrame:
         params = {
             "begin_date": formatted_date,
             "end_date": formatted_date,
-            "sort": "relevance", 
+            "sort": "relevance",  # Should we sort by newest instead so we know what the search criteria is?
             "page": page,         
             "api-key": NYT_KEY
         }
