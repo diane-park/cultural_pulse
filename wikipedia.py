@@ -1,5 +1,3 @@
-# wiki
-
 import os
 import datetime
 import requests
@@ -143,7 +141,17 @@ def get_categorized_wiki_data(target_date: str, limit: int = 25) -> pd.DataFrame
     """
     Master pipeline execution module. Call this from external scripts to 
     get fully fetched and categorized Wikipedia data as a single pandas DataFrame.
+    
+    Returns a DataFrame with columns: ['page rank', 'page title', 'pillar']
     """
+    # 1. Pull raw data from API
     raw_df = fetch_wikipedia_historical(target_date=target_date, limit=limit)
+    
+    # 2. Categorize data using Gemini
     categorized_df = categorize_wikipedia(raw_df)
-    return categorized_df
+    
+    # 3. Filter and rename to your exact specifications
+    final_df = categorized_df[['zeitgeist_rank', 'clean_title', 'pillar']].copy()
+    final_df.columns = ['page rank', 'page title', 'pillar']
+    
+    return final_df
