@@ -1,0 +1,7 @@
+pillar,current_share,historical_mean,historical_std,z_score,percentile,popularity_score,momentum_score
+Business & Finance,0.3172,0.2949,0.0327,0.68,75.24,31.72,66.54
+Science & Technology,0.1278,0.1039,0.0296,0.81,79.02,12.78,65.77
+Politics & Civic Life,0.2872,0.2587,0.0589,0.48,68.54,28.72,60.57
+Entertainment & Pop Culture,0.0512,0.0862,0.0499,-0.7,24.15,5.12,20.34
+Sports & Athletics,0.1325,0.1575,0.0289,-0.86,19.44,13.25,18.2
+Lifestyle & Wellness,0.0841,0.0988,0.0166,-0.88,18.83,8.41,16.75

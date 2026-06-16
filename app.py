@@ -72,7 +72,7 @@ if st.button("Run Analysis"):
 
     st.dataframe(
         df,
-        use_container_width=True
+        width='stretch',
     )
 
     st.subheader(
@@ -112,5 +112,5 @@ if st.button("Run Analysis"):
 
     st.plotly_chart(
         fig,
-        use_container_width=True
+        width='stretch',
     )

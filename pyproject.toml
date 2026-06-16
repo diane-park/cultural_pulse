@@ -5,18 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-<<<<<<< HEAD
     "eventregistry>=9.1",
+    "google-genai>=1.47.0",
     "pandas>=2.3.3",
     "plotly>=6.8.0",
     "python-dotenv>=1.2.1",
+    "scipy>=1.13.1",
     "streamlit>=1.50.0",
-=======
-    "google-genai>=1.47.0",
-    "numpy>=2.0.2",
-    "pandas>=2.3.3",
-    "plotly>=6.8.0",
-    "pydantic>=2.13.4",
-    "requests>=2.32.5",
->>>>>>> fd01125d1355131e2e0516de2aece0edb6053e92
 ]
