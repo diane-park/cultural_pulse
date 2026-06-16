@@ -1,92 +1,125 @@
 date,pillar,article_count,daily_total,nyt_share
-2026-05-18,Politics & Civic Life,5,10,0.5
-2026-05-18,Business & Finance,2,10,0.2
-2026-05-18,Entertainment & Pop Culture,1,10,0.1
-2026-05-18,Lifestyle & Wellness,1,10,0.1
-2026-05-18,Science & Technology,1,10,0.1
-2026-05-19,Politics & Civic Life,9,10,0.9
-2026-05-19,Entertainment & Pop Culture,1,10,0.1
-2026-05-20,Politics & Civic Life,7,10,0.7
-2026-05-20,Science & Technology,2,10,0.2
-2026-05-20,Entertainment & Pop Culture,1,10,0.1
-2026-05-21,Politics & Civic Life,8,10,0.8
-2026-05-21,Business & Finance,1,10,0.1
-2026-05-21,Entertainment & Pop Culture,1,10,0.1
-2026-05-22,Politics & Civic Life,8,10,0.8
-2026-05-22,Entertainment & Pop Culture,1,10,0.1
-2026-05-22,Lifestyle & Wellness,1,10,0.1
-2026-05-23,Politics & Civic Life,5,10,0.5
-2026-05-23,Entertainment & Pop Culture,4,10,0.4
-2026-05-23,Lifestyle & Wellness,1,10,0.1
-2026-05-24,Politics & Civic Life,7,10,0.7
-2026-05-24,Business & Finance,2,10,0.2
-2026-05-24,Entertainment & Pop Culture,1,10,0.1
-2026-05-25,Politics & Civic Life,7,10,0.7
-2026-05-25,Business & Finance,2,10,0.2
-2026-05-25,Sports & Athletics,1,10,0.1
-2026-05-26,Politics & Civic Life,8,10,0.8
-2026-05-26,Business & Finance,1,10,0.1
-2026-05-26,Entertainment & Pop Culture,1,10,0.1
-2026-05-27,Politics & Civic Life,6,10,0.6
-2026-05-27,Lifestyle & Wellness,2,10,0.2
-2026-05-27,Business & Finance,1,10,0.1
-2026-05-27,Entertainment & Pop Culture,1,10,0.1
-2026-05-28,Politics & Civic Life,7,10,0.7
-2026-05-28,Business & Finance,1,10,0.1
-2026-05-28,Science & Technology,1,10,0.1
-2026-05-28,Sports & Athletics,1,10,0.1
-2026-05-29,Politics & Civic Life,10,10,1.0
-2026-05-30,Politics & Civic Life,7,10,0.7
-2026-05-30,Entertainment & Pop Culture,2,10,0.2
-2026-05-30,Science & Technology,1,10,0.1
-2026-05-31,Politics & Civic Life,6,10,0.6
-2026-05-31,Entertainment & Pop Culture,2,10,0.2
-2026-05-31,Business & Finance,1,10,0.1
-2026-05-31,Science & Technology,1,10,0.1
-2026-06-01,Politics & Civic Life,8,10,0.8
-2026-06-01,Science & Technology,1,10,0.1
-2026-06-01,Sports & Athletics,1,10,0.1
-2026-06-02,Politics & Civic Life,9,10,0.9
-2026-06-02,Business & Finance,1,10,0.1
-2026-06-03,Politics & Civic Life,6,10,0.6
-2026-06-03,Science & Technology,3,10,0.3
-2026-06-03,Entertainment & Pop Culture,1,10,0.1
-2026-06-04,Politics & Civic Life,6,10,0.6
-2026-06-04,Science & Technology,3,10,0.3
-2026-06-04,Entertainment & Pop Culture,1,10,0.1
-2026-06-05,Politics & Civic Life,9,10,0.9
-2026-06-05,Science & Technology,1,10,0.1
-2026-06-06,Politics & Civic Life,8,10,0.8
-2026-06-06,Entertainment & Pop Culture,2,10,0.2
-2026-06-07,Entertainment & Pop Culture,8,10,0.8
-2026-06-07,Politics & Civic Life,2,10,0.2
-2026-06-08,Politics & Civic Life,8,10,0.8
-2026-06-08,Business & Finance,1,10,0.1
-2026-06-08,Sports & Athletics,1,10,0.1
-2026-06-09,Politics & Civic Life,10,10,1.0
-2026-06-10,Politics & Civic Life,6,10,0.6
-2026-06-10,Science & Technology,2,10,0.2
-2026-06-10,Business & Finance,1,10,0.1
-2026-06-10,Sports & Athletics,1,10,0.1
-2026-06-11,Politics & Civic Life,6,10,0.6
-2026-06-11,Entertainment & Pop Culture,1,10,0.1
-2026-06-11,Lifestyle & Wellness,1,10,0.1
-2026-06-11,Science & Technology,1,10,0.1
-2026-06-11,Sports & Athletics,1,10,0.1
-2026-06-12,Business & Finance,4,10,0.4
-2026-06-12,Politics & Civic Life,4,10,0.4
-2026-06-12,Lifestyle & Wellness,1,10,0.1
-2026-06-12,Science & Technology,1,10,0.1
-2026-06-13,Politics & Civic Life,8,10,0.8
-2026-06-13,Entertainment & Pop Culture,1,10,0.1
-2026-06-13,Science & Technology,1,10,0.1
-2026-06-14,Politics & Civic Life,6,10,0.6
-2026-06-14,Sports & Athletics,2,10,0.2
-2026-06-14,Business & Finance,1,10,0.1
-2026-06-14,Entertainment & Pop Culture,1,10,0.1
-2026-06-15,Politics & Civic Life,9,10,0.9
-2026-06-15,Sports & Athletics,1,10,0.1
-2026-06-16,Politics & Civic Life,7,10,0.7
-2026-06-16,Business & Finance,1,10,0.1
-2026-06-16,Lifestyle & Wellness,1,10,0.1
-2026-06-16,Science & Technology,1,10,0.1
+2024-12-01,Politics & Civic Life,6,10,0.6
+2024-12-01,Entertainment & Pop Culture,3,10,0.3
+2024-12-01,Sports & Athletics,1,10,0.1
+2024-12-02,Politics & Civic Life,6,10,0.6
+2024-12-02,Entertainment & Pop Culture,3,10,0.3
+2024-12-02,Business & Finance,1,10,0.1
+2024-12-03,Politics & Civic Life,7,10,0.7
+2024-12-03,Business & Finance,2,10,0.2
+2024-12-03,Lifestyle & Wellness,1,10,0.1
+2024-12-04,Politics & Civic Life,5,10,0.5
+2024-12-04,Lifestyle & Wellness,2,10,0.2
+2024-12-04,Business & Finance,1,10,0.1
+2024-12-04,Entertainment & Pop Culture,1,10,0.1
+2024-12-04,Science & Technology,1,10,0.1
+2024-12-05,Politics & Civic Life,10,10,1.0
+2024-12-06,Politics & Civic Life,9,10,0.9
+2024-12-06,Entertainment & Pop Culture,1,10,0.1
+2024-12-07,Politics & Civic Life,9,10,0.9
+2024-12-07,Entertainment & Pop Culture,1,10,0.1
+2024-12-08,Politics & Civic Life,8,10,0.8
+2024-12-08,Entertainment & Pop Culture,2,10,0.2
+2024-12-09,Politics & Civic Life,9,10,0.9
+2024-12-09,Science & Technology,1,10,0.1
+2024-12-10,Politics & Civic Life,7,10,0.7
+2024-12-10,Science & Technology,2,10,0.2
+2024-12-10,Entertainment & Pop Culture,1,10,0.1
+2024-12-11,Politics & Civic Life,9,10,0.9
+2024-12-11,Entertainment & Pop Culture,1,10,0.1
+2024-12-12,Politics & Civic Life,6,10,0.6
+2024-12-12,Business & Finance,2,10,0.2
+2024-12-12,Entertainment & Pop Culture,1,10,0.1
+2024-12-12,Lifestyle & Wellness,1,10,0.1
+2024-12-13,Politics & Civic Life,6,10,0.6
+2024-12-13,Science & Technology,2,10,0.2
+2024-12-13,Entertainment & Pop Culture,1,10,0.1
+2024-12-13,Sports & Athletics,1,10,0.1
+2024-12-14,Politics & Civic Life,7,10,0.7
+2024-12-14,Entertainment & Pop Culture,2,10,0.2
+2024-12-14,Business & Finance,1,10,0.1
+2024-12-15,Politics & Civic Life,5,10,0.5
+2024-12-15,Entertainment & Pop Culture,4,10,0.4
+2024-12-15,Science & Technology,1,10,0.1
+2024-12-16,Politics & Civic Life,7,10,0.7
+2024-12-16,Entertainment & Pop Culture,1,10,0.1
+2024-12-16,Lifestyle & Wellness,1,10,0.1
+2024-12-16,Sports & Athletics,1,10,0.1
+2024-12-17,Politics & Civic Life,6,10,0.6
+2024-12-17,Business & Finance,2,10,0.2
+2024-12-17,Entertainment & Pop Culture,1,10,0.1
+2024-12-17,Lifestyle & Wellness,1,10,0.1
+2024-12-18,Politics & Civic Life,4,10,0.4
+2024-12-18,Business & Finance,2,10,0.2
+2024-12-18,Science & Technology,2,10,0.2
+2024-12-18,Entertainment & Pop Culture,1,10,0.1
+2024-12-18,Lifestyle & Wellness,1,10,0.1
+2024-12-19,Politics & Civic Life,5,10,0.5
+2024-12-19,Entertainment & Pop Culture,4,10,0.4
+2024-12-19,Sports & Athletics,1,10,0.1
+2024-12-20,Politics & Civic Life,9,10,0.9
+2024-12-20,Business & Finance,1,10,0.1
+2024-12-21,Politics & Civic Life,7,10,0.7
+2024-12-21,Entertainment & Pop Culture,1,10,0.1
+2024-12-21,Science & Technology,1,10,0.1
+2024-12-21,Sports & Athletics,1,10,0.1
+2024-12-22,Politics & Civic Life,7,10,0.7
+2024-12-22,Entertainment & Pop Culture,1,10,0.1
+2024-12-22,Lifestyle & Wellness,1,10,0.1
+2024-12-22,Science & Technology,1,10,0.1
+2024-12-23,Politics & Civic Life,9,10,0.9
+2024-12-23,Business & Finance,1,10,0.1
+2024-12-24,Politics & Civic Life,8,10,0.8
+2024-12-24,Entertainment & Pop Culture,1,10,0.1
+2024-12-24,Sports & Athletics,1,10,0.1
+2024-12-25,Politics & Civic Life,6,10,0.6
+2024-12-25,Entertainment & Pop Culture,2,10,0.2
+2024-12-25,Business & Finance,1,10,0.1
+2024-12-25,Science & Technology,1,10,0.1
+2024-12-26,Politics & Civic Life,6,10,0.6
+2024-12-26,Entertainment & Pop Culture,2,10,0.2
+2024-12-26,Business & Finance,1,10,0.1
+2024-12-26,Science & Technology,1,10,0.1
+2024-12-27,Politics & Civic Life,5,10,0.5
+2024-12-27,Lifestyle & Wellness,2,10,0.2
+2024-12-27,Business & Finance,1,10,0.1
+2024-12-27,Entertainment & Pop Culture,1,10,0.1
+2024-12-27,Science & Technology,1,10,0.1
+2024-12-28,Politics & Civic Life,7,10,0.7
+2024-12-28,Entertainment & Pop Culture,3,10,0.3
+2024-12-29,Politics & Civic Life,9,10,0.9
+2024-12-29,Entertainment & Pop Culture,1,10,0.1
+2024-12-30,Lifestyle & Wellness,5,10,0.5
+2024-12-30,Science & Technology,3,10,0.3
+2024-12-30,Politics & Civic Life,1,10,0.1
+2024-12-30,Sports & Athletics,1,10,0.1
+2024-12-31,Politics & Civic Life,4,10,0.4
+2024-12-31,Entertainment & Pop Culture,3,10,0.3
+2024-12-31,Business & Finance,1,10,0.1
+2024-12-31,Lifestyle & Wellness,1,10,0.1
+2024-12-31,Sports & Athletics,1,10,0.1
+2025-01-01,Politics & Civic Life,9,10,0.9
+2025-01-01,Entertainment & Pop Culture,1,10,0.1
+2025-01-02,Politics & Civic Life,9,10,0.9
+2025-01-02,Entertainment & Pop Culture,1,10,0.1
+2025-01-03,Politics & Civic Life,7,10,0.7
+2025-01-03,Entertainment & Pop Culture,1,10,0.1
+2025-01-03,Lifestyle & Wellness,1,10,0.1
+2025-01-03,Science & Technology,1,10,0.1
+2025-01-04,Entertainment & Pop Culture,4,10,0.4
+2025-01-04,Politics & Civic Life,4,10,0.4
+2025-01-04,Lifestyle & Wellness,2,10,0.2
+2025-01-05,Entertainment & Pop Culture,8,10,0.8
+2025-01-05,Politics & Civic Life,2,10,0.2
+2025-01-06,Politics & Civic Life,6,10,0.6
+2025-01-06,Entertainment & Pop Culture,2,10,0.2
+2025-01-06,Lifestyle & Wellness,1,10,0.1
+2025-01-06,Science & Technology,1,10,0.1
+2025-01-07,Politics & Civic Life,7,10,0.7
+2025-01-07,Entertainment & Pop Culture,2,10,0.2
+2025-01-07,Science & Technology,1,10,0.1
+2025-01-08,Politics & Civic Life,8,10,0.8
+2025-01-08,Lifestyle & Wellness,1,10,0.1
+2025-01-08,Science & Technology,1,10,0.1
+2025-01-09,Politics & Civic Life,6,10,0.6
+2025-01-09,Business & Finance,4,10,0.4

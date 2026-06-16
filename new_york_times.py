@@ -295,8 +295,8 @@ def fetch_nyt_historical(target_date: str, limit: int = 10) -> pd.DataFrame:
         response = requests.get(url, params=params, timeout=30)
 
         if response.status_code == 429:
-            print("NYT rate limit hit. Sleeping 10 seconds...")
-            time.sleep(10)
+            print("NYT rate limit hit. Sleeping 5 seconds...")
+            time.sleep(5)
             continue
 
         if response.status_code != 200:
@@ -534,10 +534,10 @@ def run_nyt_7_day_pipeline(
 if __name__ == "__main__":
     # Change this date whenever needed.
     # This will fetch this date plus the previous 6 days.
-    END_DATE = "2026-06-16"
+    END_DATE = "2025-01-09"
 
     run_nyt_7_day_pipeline(
         end_date=END_DATE,
-        days=30,
+        days=40,
         limit_per_day=10,
     )
