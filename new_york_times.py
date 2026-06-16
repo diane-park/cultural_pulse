@@ -164,9 +164,15 @@ def get_categorized_nyt_data(target_date: str, limit: int = 25) -> pd.DataFrame:
     """
     Master pipeline execution module. Call this from external scripts to 
     get fully fetched and categorized news data as a single pandas DataFrame.
+    
+    Returns a DataFrame with columns: ['page rank', 'page title', 'pillar']
     """
+    # 1. Pull raw data from API
     raw_df = fetch_nyt_historical(target_date=target_date, limit=limit)
+    
+    # 2. Categorize data using Gemini
     categorized_df = categorize_news(raw_df)
+<<<<<<< HEAD
     print(categorized_df[['clean_title', 'pillar']])
     return categorized_df
 
@@ -541,3 +547,11 @@ if __name__ == "__main__":
         days=40,
         limit_per_day=10,
     )
+=======
+    
+    # 3. Filter and rename columns to your exact specification
+    final_df = categorized_df[['zeitgeist_rank', 'clean_title', 'pillar']].copy()
+    final_df.columns = ['page rank', 'page title', 'pillar']
+    
+    return final_df
+>>>>>>> 29d2eb3389ed4ffa0ba05c318e1b59d26c550f9d

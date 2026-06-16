@@ -255,6 +255,7 @@ Wikipedia pages:
 
 def create_daily_wiki_pillar_summary(df: pd.DataFrame) -> pd.DataFrame:
     """
+<<<<<<< HEAD
     Creates weighted daily pillar shares using pageviews.
 
     Output is intentionally similar to the NYT summary:
@@ -372,3 +373,21 @@ if __name__ == "__main__":
         days=30,
         limit_per_day=25,
     )
+=======
+    Master pipeline execution module. Call this from external scripts to 
+    get fully fetched and categorized Wikipedia data as a single pandas DataFrame.
+    
+    Returns a DataFrame with columns: ['page rank', 'page title', 'pillar']
+    """
+    # 1. Pull raw data from API
+    raw_df = fetch_wikipedia_historical(target_date=target_date, limit=limit)
+    
+    # 2. Categorize data using Gemini
+    categorized_df = categorize_wikipedia(raw_df)
+    
+    # 3. Filter and rename to your exact specifications
+    final_df = categorized_df[['zeitgeist_rank', 'clean_title', 'pillar']].copy()
+    final_df.columns = ['page rank', 'page title', 'pillar']
+    
+    return final_df
+>>>>>>> 29d2eb3389ed4ffa0ba05c318e1b59d26c550f9d
