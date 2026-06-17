@@ -266,12 +266,22 @@ def build_composite_history(
     df["nyt_share_filled"] = df["nyt_share"].fillna(0.0)
     df["wiki_share_filled"] = df["wiki_share"].fillna(0.0)
 
-    df["composite_share"] = (
+    # First calculate raw composite share
+    df["composite_share_raw"] = (
         df["newsapi_weight_used"] * df["newsapi_share_filled"]
         + df["nyt_weight_used"] * df["nyt_share_filled"]
         + df["wiki_weight_used"] * df["wiki_share_filled"]
     )
 
+    # Then normalize within each date so daily shares sum to 1.0
+    daily_composite_total = (
+        df.groupby("date")["composite_share_raw"]
+        .transform("sum")
+    )
+
+    df["composite_share"] = df["composite_share_raw"] / daily_composite_total
+
+    # Popularity score now sums to 100 for each date
     df["popularity_score"] = df["composite_share"] * 100
 
     if "newsapi_article_count" in df.columns:
@@ -359,6 +369,21 @@ def calculate_momentum(
 
         popularity_score = current_row["popularity_score"]
 
+        # Signed heat score:
+
+        # 0 = normal
+        # positive = hotter than baseline
+        # negative = colder than baseline
+        # Uses percentile-shaped scaling, so it saturates near +/-100.
+        heat_score = (normal_cdf(z_score) - 0.5) * 200
+
+        # Popularity-adjusted heat:
+        # Preserves direction while scaling magnitude by current attention level.
+        # Higher-popularity pillars get amplified; lower-popularity pillars get dampened.
+        popularity_multiplier = 0.5 + (popularity_score / 100)
+
+        impact_heat_score = heat_score * popularity_multiplier    
+
         momentum_score = (
             0.80 * percentile
             + 0.20 * popularity_score
@@ -401,6 +426,10 @@ def calculate_momentum(
 
                 "z_score": round(z_score, 2),
                 "percentile": round(percentile, 2),
+
+                "heat_score": round(heat_score, 2),
+                "popularity_multiplier": round(popularity_multiplier, 4),
+                "impact_heat_score": round(impact_heat_score, 2),
 
                 "popularity_score": round(popularity_score, 2),
                 "momentum_score": round(momentum_score, 2),
@@ -463,6 +492,7 @@ def run_integrated_pipeline(
         ]
     )
 
+    print(result_df['popularity_score'].sum())
     print("\nSaved files:")
     print(f"- {COMPOSITE_HISTORY_CSV}")
     print(f"- {FINAL_OUTPUT_CSV}")

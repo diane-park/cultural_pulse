@@ -1,7 +1,7 @@
-date,pillar,newsapi_available,nyt_available,wiki_available,available_source_count,newsapi_weight_used,nyt_weight_used,wiki_weight_used,newsapi_share,nyt_share,wiki_share,composite_share,baseline_days,historical_mean,historical_std,z_score,percentile,popularity_score,momentum_score
-2025-01-09,Business & Finance,False,True,False,1,0.0,1.0,0.0,,0.4,,0.4,24,0.0766,0.053,6.11,100.0,40.0,88.0
-2025-01-09,Lifestyle & Wellness,False,False,True,1,0.0,0.0,1.0,,,0.2043,0.2043,31,0.1011,0.0675,1.53,93.7,20.43,79.04
-2025-01-09,Politics & Civic Life,False,True,True,2,0.0,0.625,0.375,,0.6,0.4811,0.5554,39,0.5313,0.1929,0.12,54.97,55.54,55.09
-2025-01-09,Entertainment & Pop Culture,False,False,True,1,0.0,0.0,1.0,,,0.2624,0.2624,36,0.3249,0.145,-0.43,33.32,26.24,31.9
-2025-01-09,Science & Technology,False,False,True,1,0.0,0.0,1.0,,,0.0522,0.0522,31,0.1081,0.0602,-0.93,17.62,5.22,15.14
-2025-01-09,Sports & Athletics,False,False,False,0,0.0,0.0,0.0,,,,0.0,27,0.1185,0.072,-1.65,4.98,0.0,3.99
+date,pillar,newsapi_available,nyt_available,wiki_available,available_source_count,newsapi_weight_used,nyt_weight_used,wiki_weight_used,newsapi_share,nyt_share,wiki_share,composite_share,baseline_days,historical_mean,historical_std,z_score,percentile,heat_score,popularity_multiplier,impact_heat_score,popularity_score,momentum_score
+2025-01-09,Business & Finance,False,True,False,1,0.0,1.0,0.0,,0.4,,0.2713,24,0.0676,0.0493,4.13,100.0,100.0,0.7713,77.13,27.13,85.42
+2025-01-09,Lifestyle & Wellness,False,False,True,1,0.0,0.0,1.0,,,0.2043,0.1386,31,0.0876,0.0571,0.89,81.4,62.79,0.6386,40.1,13.86,67.89
+2025-01-09,Politics & Civic Life,False,True,True,2,0.0,0.625,0.375,,0.6,0.4811,0.3767,39,0.4827,0.2049,-0.52,30.24,-39.51,0.8767,-34.64,37.67,31.73
+2025-01-09,Entertainment & Pop Culture,False,False,True,1,0.0,0.0,1.0,,,0.2624,0.178,36,0.2814,0.114,-0.91,18.21,-63.58,0.678,-43.11,17.8,18.13
+2025-01-09,Science & Technology,False,False,True,1,0.0,0.0,1.0,,,0.0522,0.0354,31,0.0951,0.0558,-1.07,14.23,-71.54,0.5354,-38.3,3.54,12.09
+2025-01-09,Sports & Athletics,False,False,False,0,0.0,0.0,0.0,,,,0.0,27,0.1021,0.0617,-1.65,4.91,-90.18,0.5,-45.09,0.0,3.93
